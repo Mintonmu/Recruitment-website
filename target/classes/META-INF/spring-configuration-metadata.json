@@ -1,0 +1,49 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "qdu.java.recruit.configuration.EndpointCorsProperties",
+      "name": "endpoints.cors",
+      "type": "qdu.java.recruit.configuration.EndpointCorsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "qdu.java.recruit.configuration.EndpointCorsProperties",
+      "name": "endpoints.cors.allow-credentials",
+      "description": "Set whether credentials are supported. When not set, credentials are not supported.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "qdu.java.recruit.configuration.EndpointCorsProperties",
+      "name": "endpoints.cors.allowed-headers",
+      "description": "Comma-separated list of headers to allow in a request. '*' allows all headers.",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "qdu.java.recruit.configuration.EndpointCorsProperties",
+      "name": "endpoints.cors.allowed-methods",
+      "description": "Comma-separated list of methods to allow. '*' allows all methods. When not set,\n defaults to GET.",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "qdu.java.recruit.configuration.EndpointCorsProperties",
+      "name": "endpoints.cors.allowed-origins",
+      "description": "Comma-separated list of origins to allow. '*' allows all origins. When not set,\n CORS support is disabled.",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "qdu.java.recruit.configuration.EndpointCorsProperties",
+      "name": "endpoints.cors.exposed-headers",
+      "description": "Comma-separated list of headers to include in a response.",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "qdu.java.recruit.configuration.EndpointCorsProperties",
+      "defaultValue": 1800,
+      "name": "endpoints.cors.max-age",
+      "description": "How long, in seconds, the response from a pre-flight request can be cached by\n clients.",
+      "type": "java.lang.Long"
+    }
+  ]
+}

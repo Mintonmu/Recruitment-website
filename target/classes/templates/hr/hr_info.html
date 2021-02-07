@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>HR管理面板</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="../js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/user-center.css"/>
+    <link rel="stylesheet" type="text/css" href="../icon/iconfont.css"/>
+
+    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+    <script src="../js/vue.min.js"></script>
+    <script src="/layer/layer.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+
+        <div class="container row" id="header-vue-bind-div">
+            <ul class="nav col-lg-8">
+                <li class="nav_li"><a class="nav_item" href="#">HR管理面板</a></li>
+                <li class="nav_li current"><a class="nav_item" href="/hr/info?type=person">HR个人中心</a></li>
+            </ul>
+
+            <ul class="clear_fix col-lg-2  " v-if="type===null">
+                <li><a class="clear_fix_item login" href="/hr/login">登录</a></li>
+                <li><a class="clear_fix_item register" href="/register">注册</a></li>
+            </ul>
+            <ul class="clear_fix col-lg-2 " v-if="type==='hr'">
+                <li><img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=3803332007,2672307128&fm=58" alt=""
+                         class="img-circle" style="width: 48px;height: 48px"></li>
+                <li>
+
+                    <div class="dropdown">
+                        <a data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <h6>{{person.hr.hrName}}</h6>
+                            <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dLabel">
+                            <li><a href="/user/logout">注销</a></li>
+                        </ul>
+                    </div>
+
+                </li>
+            </ul>
+
+        </div>
+        <!--script-->
+        <script>
+            var header = new Vue({
+                el: '#header-vue-bind-div',
+                data: {
+                    type: null,
+                    person: {
+                        user: null,
+                        hr: null
+                    }
+
+                }
+            });
+        </script>
+    </div>
+
+    <hr/>
+
+
+    <div class="main container" id="vue-dom">
+        <div class="page-header row">
+            <h2 class="col-lg-6 ">{{navText}}
+            </h2>
+        </div>
+        <div class="nav-content col-lg-3">
+            <div class="list-group">
+                <a class="list-group-item" href="?type=person">个人资料</a>
+                <a class="list-group-item" href="?type=collection">职位管理<span class="badge">{{collections.length}}</span></a>
+                <a class="list-group-item" href="?type=box">投件审核<span class="badge">{{boxs.length}}</span></a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510069084770&di=039cecda74d59029496cb5459a6e64e8&imgtype=0&src=http%3A%2F%2Fdown.cnshu.cn%2F2013%2Fcnshu_images%2Fchenchunhong%2F201310070942.png"
+                 alt="...">
+            <div class="caption">
+                <h3>公告板</h3>
+                <p>本次更新内容：Updateing</p>
+                <p><a href="" class="btn btn-primary" role="button">查看</a> <a href="" class="btn btn-default" role="button">关闭</a></p>
+            </div>
+        </div>
+        <div class="main_content" id="main-content">
+
+            <div class="person-content right-content" v-if="type==='person'">
+                <div id="hr_info">
+                    <div class="container">
+
+                        <div class="line1">
+                            <div class=" col-lg-4 l">
+                                <div class=" row">
+                                    <label for="tel" class="col-lg-4 col-lg-offset-1 lab">手机号码：</label>
+                                    <input type="number" class="form-control col-lg-6" id="tel" name="mobile"
+                                           placeholder="手机号码" maxlength="11">
+                                </div>
+                            </div>
+                            <div class=" col-lg-4 l">
+                                <div class=" row">
+                                    <label for="password" class="col-lg-4 col-lg-offset-1 lab">用户密码：</label>
+                                    <input type="password" class="form-control col-lg-6 " id="password"
+                                           name="password" placeholder="密码重置">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="line2">
+                            <div class=" col-lg-4 l">
+                                <div class=" row">
+                                </div>
+                            </div>
+
+                            <div class=" col-lg-4 l">
+                                <div class=" row">
+                                    <label for="email" class="col-lg-4 col-lg-offset-1 lab">用户邮箱：</label>
+                                    <input type="text" class="form-control col-lg-6 " id="email" name="email"
+                                           placeholder="电子邮箱"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="line2">
+                            <div class=" col-lg-4 l">
+                                <div class=" row">
+                                    <label for="inputName" class="col-lg-4 col-lg-offset-1 lab">用户姓名：</label>
+                                    <input type="text" class="form-control col-lg-6" id="inputName" name="name"
+                                           placeholder="输入姓名">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 l">
+                                <div class=" row">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line2">
+                            <div class=" col-lg-4 l">
+                                <div class=" row">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 l">
+                                <div class=" row">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line3">
+                            <div class=" col-lg-4 l">
+                                <div class=" row">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="line4">
+                            <div class=" col-lg-4 l">
+                                <div class=" row">
+                                </div>
+                            </div>
+
+                            <div class=" col-lg-4 l">
+                                <div class=" row">
+                                </div>
+                            </div>
+                            <div class=" col-lg-4 l">
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 l">
+                            <div class=" row">
+
+                            </div>
+                        </div>
+
+                        <div class=" col-lg-4 l" style="visibility: hidden;height: 39px;"></div>
+
+                        <div class=" col-lg-4 l">
+                            <div class=" row">
+                                <div class="btn-sm col-lg-5"></div>
+                                <a class="btn btn-primary col-lg-6" href="" role="button"
+                                   onclick="location.reload()">重置</a>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 l">
+                            <div class=" row">
+                                <div class="btn-sm col-lg-5"></div>
+                                <button class="btn btn-primary col-lg-6"
+                                        onclick="infoUpdate()">保存
+                                </button>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--                    <div class="modal fade" tabindex="-1" role="dialog" id="myModal">-->
+                <!--                        <div class="modal-dialog" role="document">-->
+                <!--                            <div class="modal-content">-->
+                <!--                                <div class="modal-header">-->
+                <!--                                    <h3 class="modal-title">确认框</h3>-->
+                <!--                                </div>-->
+                <!--                                <div class="modal-body">-->
+                <!--                                    <p>您真的要更改信息么？</p>-->
+                <!--                                </div>-->
+                <!--                                <div class="modal-footer">-->
+                <!--                                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>-->
+                <!--                                    <button type="submit" class="btn btn-primary" id="info_submit" onclick="update_info()">确认</button>-->
+                <!--                                </div>-->
+                <!--                            </div>&lt;!&ndash; /.modal-content &ndash;&gt;-->
+                <!--                        </div>&lt;!&ndash; /.modal-dialog &ndash;&gt;-->
+                <!--                    </div>&lt;!&ndash; /.modal &ndash;&gt;-->
+            </div>
+        </div>
+
+        <div class="collection-content right-content" v-if="type==='collection'">
+            <div class="container collection-container">
+                <table class="table table-striped table-hover">
+                    <tr>
+                        <th>#</th>
+                        <th>职位名</th>
+                        <th>薪水</th>
+                        <th>工作地</th>
+                        <th></th>
+                        <th>操作</th>
+                    </tr>
+                    <tr v-for="(collection,index) in collections" class="collection-item">
+                        <td>{{index}}</td>
+                        <td>{{collection.title}}</td>
+                        <td>{{collection.salary}}</td>
+                        <td>{{collection.place}}</td>
+                        <td>
+                            <input type="hidden">
+                        </td>
+                        <td>
+                            <button id="posReview" type="button" class="btn btn-info btn-sm"
+                                    @click="posJump(collection.posId)">
+                                查看职位
+                            </button>
+                            <button id="posRemove" type="button" class="btn btn-danger btn-sm"
+                                    @click="posRemove(collection.posId)">移除
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="box-content right-content" v-if="type==='box'">
+            <div class="container box-container">
+                <table class="table table-striped table-hover">
+                    <tr>
+                        <th>#</th>
+                        <th>职位名</th>
+                        <th>薪水</th>
+                        <th>工作地</th>
+                        <th>HR手机</th>
+                        <th>HR邮箱</th>
+                        <th>审核状态</th>
+                    </tr>
+                    <tr v-for="(box,index) in boxs" class="" :class="box.state">
+                        <td>{{index}}</td>
+                        <td>{{box.title}}</td>
+                        <td>{{box.salary}}</td>
+                        <td>{{box.place}}</td>
+                        <td>{{box.hrMobile}}</td>
+                        <td>{{box.hrEmail}}</td>
+                        <td><select>
+                            <option value="1">通过</option>
+                            <option value="2">不通过</option>
+                        </select></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="/js/hr_info.js"></script>
+</div>
+</body>
+</html>

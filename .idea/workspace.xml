@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32755f5a-502e-4964-ba9f-fdfc64b0abda" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/libs/sun.misc.BASE64Decoder.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/Project_sql11.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/configuration/DruidDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/configuration/DruidDataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/configuration/EndpointCorsProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/configuration/EndpointCorsProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/configuration/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/configuration/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/constant/GlobalConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/constant/GlobalConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/SMSController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/admin/BackManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/admin/BackManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/hr/HRController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/hr/HRController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/hr/PositionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/hr/PositionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/user/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/user/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/user/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/controller/user/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/enumeration/ActivationEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/enumeration/ActivationEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/ApplicationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/ApplicationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/CommentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/CompanyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/CompanyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/DepartmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/FavorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/FavorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/HRMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/HRMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/PositionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/PositionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/ResumeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/ResumeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/pojo/ApplicationPositionHRBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/pojo/ApplicationPositionHRBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/pojo/CommentPositionBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/pojo/CommentPositionBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/pojo/FavorPositionBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/pojo/FavorPositionBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/pojo/PositionCompanyBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/pojo/PositionCompanyBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/pojo/UserCommentBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/pojo/UserCommentBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/ApplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/ApplicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/FavorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/FavorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/HRService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/HRService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/PositionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/PositionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/ResumeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/ResumeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/ApplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/ApplicationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/CompanyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/FavorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/FavorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/HRServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/HRServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/PositionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/PositionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/ResumeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/ResumeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/util/ArithmeticUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/util/ArithmeticUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/util/InfoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/util/InfoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/util/RecPositionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/util/RecPositionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/util/RecUserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/util/RecUserUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/util/SMSUtil/CheckSumBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/util/SMSUtil/Sender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qdu/java/recruit/util/SMSUtil/Verify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/hr_login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/hr_login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/user_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/user_info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/user_login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/user_login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/sign_up/js/phone_varify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/general/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/general/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/hr_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/hr_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/manager/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/manager/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/position_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/position_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/search_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/search_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/user_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/user_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/user_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/user_login.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="1qdvlsf0" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.5.0-bin/6ps54u5pnnbbpr6ds9rppcc7iv/apache-maven-3.5.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kttrHP8lCrSXTfktNHi6NtTK4U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/js" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/hr" />
+      <recent name="E:\IndexRecruit\src\main\resources\templates\hr" />
+      <recent name="$PROJECT_DIR$/libs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="recruit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qdu.java.recruit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qdu.java.recruit" />
+      <option name="MAIN_CLASS_NAME" value="qdu.java.recruit.ApplicationServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="recruit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qdu.java.recruit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="qdu.java.recruit.DemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ApplicationServiceTest" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="JUnit.ApplicationServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32755f5a-502e-4964-ba9f-fdfc64b0abda" name="Default Changelist" comment="" />
+      <created>1606531914496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606531914496</updated>
+      <workItem from="1606531917941" duration="396000" />
+      <workItem from="1606532687527" duration="1909000" />
+      <workItem from="1606535656654" duration="2821000" />
+      <workItem from="1606538496346" duration="125000" />
+      <workItem from="1606538640337" duration="3291000" />
+      <workItem from="1606624130204" duration="8930000" />
+      <workItem from="1606662414755" duration="3000" />
+      <workItem from="1606663042142" duration="6000" />
+      <workItem from="1606706083859" duration="12737000" />
+      <workItem from="1607049078433" duration="612000" />
+      <workItem from="1607499494332" duration="7507000" />
+      <workItem from="1607605068623" duration="41000" />
+      <workItem from="1607825600083" duration="11000" />
+      <workItem from="1609123167586" duration="18821000" />
+      <workItem from="1609166193100" duration="2354000" />
+      <workItem from="1609204901599" duration="2165000" />
+      <workItem from="1609207930156" duration="499000" />
+      <workItem from="1609208901188" duration="1350000" />
+      <workItem from="1609217674433" duration="5294000" />
+      <workItem from="1609415341298" duration="91000" />
+      <workItem from="1609415475473" duration="453000" />
+      <workItem from="1609474296899" duration="751000" />
+      <workItem from="1609764552217" duration="1078000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="644" y="294" key="#Log_Highlighting_(ideolog)" timestamp="1606624920485">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="644" y="294" key="#Log_Highlighting_(ideolog)/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606624920485" />
+    <state x="192" y="0" key="#Project_Structure" timestamp="1606532897925">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="128" y="0" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1606532078234" />
+    <state x="192" y="0" key="#Project_Structure/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606532897925" />
+    <state x="362" y="180" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609162866106">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="362" y="180" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1609162866106" />
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606715608528" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1606626077877">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606626077877" />
+    <state x="2685" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606537977202" />
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606715294480">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606715294480" />
+    <state width="1636" height="396" key="GridCell.Tab.0.bottom" timestamp="1609767876995">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1238" height="336" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606532261623" />
+    <state width="1636" height="396" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1609767876995" />
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606741864316" />
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607517091640" />
+    <state width="1638" height="396" key="GridCell.Tab.0.bottom/52.23.1628.1027@52.23.1628.1027" timestamp="1609167781177" />
+    <state width="1638" height="396" key="GridCell.Tab.0.bottom/54.23.1626.1027@54.23.1626.1027" timestamp="1609161991492" />
+    <state width="1636" height="396" key="GridCell.Tab.0.center" timestamp="1609767876994">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1238" height="336" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606532261621" />
+    <state width="1636" height="396" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1609767876994" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606741864316" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607517091640" />
+    <state width="1638" height="396" key="GridCell.Tab.0.center/52.23.1628.1027@52.23.1628.1027" timestamp="1609167781148" />
+    <state width="1638" height="396" key="GridCell.Tab.0.center/54.23.1626.1027@54.23.1626.1027" timestamp="1609161991489" />
+    <state width="1636" height="396" key="GridCell.Tab.0.center/57.23.1623.1027@57.23.1623.1027" timestamp="1609229724722" />
+    <state width="1636" height="396" key="GridCell.Tab.0.left" timestamp="1609767876994">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1238" height="336" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606532261620" />
+    <state width="1636" height="396" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1609767876994" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606741864316" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607517091640" />
+    <state width="1638" height="396" key="GridCell.Tab.0.left/52.23.1628.1027@52.23.1628.1027" timestamp="1609167781146" />
+    <state width="1638" height="396" key="GridCell.Tab.0.left/54.23.1626.1027@54.23.1626.1027" timestamp="1609161991487" />
+    <state width="1636" height="396" key="GridCell.Tab.0.left/57.23.1623.1027@57.23.1623.1027" timestamp="1609229724677" />
+    <state width="1636" height="396" key="GridCell.Tab.0.right" timestamp="1609767876995">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1238" height="336" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606532261622" />
+    <state width="1636" height="396" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1609767876995" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606741864316" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607517091640" />
+    <state width="1638" height="396" key="GridCell.Tab.0.right/52.23.1628.1027@52.23.1628.1027" timestamp="1609167781173" />
+    <state width="1638" height="396" key="GridCell.Tab.0.right/54.23.1626.1027@54.23.1626.1027" timestamp="1609161991491" />
+    <state width="1636" height="396" key="GridCell.Tab.0.right/57.0.1623.1050@57.0.1623.1050" timestamp="1609229724741" />
+    <state width="1636" height="396" key="GridCell.Tab.1.bottom" timestamp="1609767876997">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1238" height="336" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606532261629" />
+    <state width="1636" height="396" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1609767876997" />
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606741864316" />
+    <state width="1877" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607517091640" />
+    <state width="1638" height="396" key="GridCell.Tab.1.bottom/52.23.1628.1027@52.23.1628.1027" timestamp="1609167781194" />
+    <state width="1638" height="396" key="GridCell.Tab.1.bottom/54.23.1626.1027@54.23.1626.1027" timestamp="1609161991499" />
+    <state width="1636" height="396" key="GridCell.Tab.1.center" timestamp="1609767876996">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1238" height="336" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1606532261626" />
+    <state width="1636" height="396" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1609767876996" />
+    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606741864316" />
+    <state width="1877" height="287" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607517091640" />
+    <state width="1638" height="396" key="GridCell.Tab.1.center/52.23.1628.1027@52.23.1628.1027" timestamp="1609167781191" />
+    <state width="1638" height="396" key="GridCell.Tab.1.center/54.23.1626.1027@54.23.1626.1027" timestamp="1609161991497" />
+    <state width="1636" height="396" key="GridCell.Tab.1.left" timestamp="1609767876995">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1238" height="336" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1606532261624" />
+    <state width="1636" height="396" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1609767876995" />
+    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606741864316" />
+    <state width="1877" height="287" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607517091640" />
+    <state width="1638" height="396" key="GridCell.Tab.1.left/52.23.1628.1027@52.23.1628.1027" timestamp="1609167781188" />
+    <state width="1638" height="396" key="GridCell.Tab.1.left/54.23.1626.1027@54.23.1626.1027" timestamp="1609161991496" />
+    <state width="1636" height="396" key="GridCell.Tab.1.right" timestamp="1609767876996">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1238" height="336" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1606532261627" />
+    <state width="1636" height="396" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1609767876996" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606741864316" />
+    <state width="1877" height="287" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607517091640" />
+    <state width="1638" height="396" key="GridCell.Tab.1.right/52.23.1628.1027@52.23.1628.1027" timestamp="1609167781192" />
+    <state width="1638" height="396" key="GridCell.Tab.1.right/54.23.1626.1027@54.23.1626.1027" timestamp="1609161991498" />
+    <state width="1636" height="364" key="GridCell.Tab.2.bottom" timestamp="1609229724768">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="364" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1609229724768" />
+    <state width="1636" height="364" key="GridCell.Tab.2.center" timestamp="1609229724767">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="364" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1609229724767" />
+    <state width="1636" height="364" key="GridCell.Tab.2.left" timestamp="1609229724766">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="364" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1609229724766" />
+    <state width="1636" height="364" key="GridCell.Tab.2.right" timestamp="1609229724767">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="364" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1609229724767" />
+    <state width="311" height="457" key="HiddenNamespacesPopup" timestamp="1609124990051">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="311" height="457" key="HiddenNamespacesPopup/0.0.1680.1050@0.0.1680.1050" timestamp="1609124990051" />
+    <state x="383" y="265" key="SettingsEditor" timestamp="1609168216250">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1606532015323" />
+    <state x="383" y="265" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1609168216250" />
+    <state x="212" y="51" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606624175078" />
+    <state x="2132" y="51" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606538620332" />
+    <state x="338" y="155" width="604" height="490" key="find.popup" timestamp="1606532194485">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="338" y="155" width="604" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1606532194485" />
+    <state x="545" y="227" width="670" height="678" key="search.everywhere.popup" timestamp="1609165117308">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="545" y="227" width="670" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1609165117308" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606712817278" />
+    <state x="2543" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606537046275" />
+    <state x="227" y="91" key="spring file set editor" timestamp="1606532052628">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="227" y="91" key="spring file set editor/0.0.1280.800@0.0.1280.800" timestamp="1606532052628" />
+  </component>
+</project>
